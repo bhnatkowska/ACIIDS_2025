@@ -1,0 +1,307 @@
+Project_ID;Project_Name;Sprint_ID;Sprint_State;Sprint_Start;Sprint_End;Sprint_Length;Issue_ID;Issue_Desc;Type;Status;Resolution;Story Point;Time spent
+6;Apache MXNet;567;CLOSED;30.04.2018 17:00;14.05.2018 17:00;13;26970; broadcast_mul/div between csr and 1D dense vector on GPU;Sub-task;Done;\N;1;50
+6;Apache MXNet;567;CLOSED;30.04.2018 17:00;14.05.2018 17:00;13;27008;Size and Shape Operator;Sub-task;Done;\N;1;620
+6;Apache MXNet;567;CLOSED;30.04.2018 17:00;14.05.2018 17:00;13;26998;unary for csr;Sub-task;Done;\N;2;130
+6;Apache MXNet;567;CLOSED;30.04.2018 17:00;14.05.2018 17:00;13;27010;Make use of pooling_convention parameter in AvgPool Operator;Sub-task;Done;\N;2;410
+6;Apache MXNet;567;CLOSED;30.04.2018 17:00;14.05.2018 17:00;13;27011;L1 Normalization / Reduce L1 Operator;Sub-task;Done;\N;2;540
+6;Apache MXNet;567;CLOSED;30.04.2018 17:00;14.05.2018 17:00;13;26991;elemwise_mul between dense and csr on CPU & GPU;Sub-task;Done;\N;3;70
+6;Apache MXNet;567;CLOSED;30.04.2018 17:00;14.05.2018 17:00;13;26986;elemwise_add/sub between rsp and rsp on GPU;Sub-task;Done;\N;3;140
+6;Apache MXNet;567;CLOSED;30.04.2018 17:00;14.05.2018 17:00;13;27009;Take Operator Enhancement;Sub-task;Done;\N;3;360
+6;Apache MXNet;567;CLOSED;30.04.2018 17:00;14.05.2018 17:00;13;27012;SpaceToDepth and DepthToSpace Operator;Sub-task;Done;\N;3;840
+6;Apache MXNet;567;CLOSED;30.04.2018 17:00;14.05.2018 17:00;13;27040;Histogram Operator;New Feature;Done;\N;5;390
+6;Apache MXNet;562;CLOSED;14.05.2018 18:39;28.05.2018 18:39;13;26848;subgraph storage type inference for cachedOp;Sub-task;Done;\N;1;10
+6;Apache MXNet;562;CLOSED;14.05.2018 18:39;28.05.2018 18:39;13;26855;Unit test for MKLDNNSum helper util;Sub-task;Done;\N;1;20
+6;Apache MXNet;562;CLOSED;14.05.2018 18:39;28.05.2018 18:39;13;26926;Fix data type switch in elemwise_add between dense and rsp;Bug;Done;\N;1;40
+6;Apache MXNet;562;CLOSED;14.05.2018 18:39;28.05.2018 18:39;13;26887;gluon.utils.clip_global_norm(row_sparse);Sub-task;Done;\N;1;70
+6;Apache MXNet;562;CLOSED;14.05.2018 18:39;28.05.2018 18:39;13;26852;Create unit test for CreateMKLDNNMem/CommitOutput;Sub-task;Done;\N;1;170
+6;Apache MXNet;562;CLOSED;14.05.2018 18:39;28.05.2018 18:39;13;26859;Fix MKLDNN performance regression;Sub-task;Done;\N;2;390
+6;Apache MXNet;562;CLOSED;14.05.2018 18:39;28.05.2018 18:39;13;26922;Fix broken cpp engine unit test;Bug;Done;\N;3;30
+6;Apache MXNet;562;CLOSED;14.05.2018 18:39;28.05.2018 18:39;13;26901;Test backward pass operations;Sub-task;Done;\N;3;50
+6;Apache MXNet;562;CLOSED;14.05.2018 18:39;28.05.2018 18:39;13;26913;Add C++ unit tests for concat operator;Sub-task;Done;\N;3;330
+6;Apache MXNet;562;CLOSED;14.05.2018 18:39;28.05.2018 18:39;13;26902;Add kAddTo request type to C++ unit test framework;Sub-task;Done;\N;4;320
+6;Apache MXNet;565;CLOSED;29.05.2018 16:58;08.06.2018 16:58;9;26937;Flaky test_operator_gpu.test_sgd;Sub-task;Done;\N;1;20
+6;Apache MXNet;565;CLOSED;29.05.2018 16:58;08.06.2018 16:58;9;26813;Flaky test_loss.test_ctc_loss_train;Sub-task;Done;\N;1;70
+6;Apache MXNet;565;CLOSED;29.05.2018 16:58;08.06.2018 16:58;9;26837;Flaky test_operator_gpu.test_sparse_dot;Sub-task;Done;\N;1;70
+6;Apache MXNet;564;CLOSED;02.07.2018 23:52;13.07.2018 19:00;10;26759;Implement Flakiness Checker;Sub-task;Done;\N;1;30
+6;Apache MXNet;564;CLOSED;02.07.2018 23:52;13.07.2018 19:00;10;26757;Implement Diff Collator;Sub-task;Done;\N;2;60
+6;Apache MXNet;540;CLOSED;30.07.2018 20:55;13.08.2018 20:55;14;27339;update on setting up Scala with MXNet and the IntelliJ IDE;Improvement;Done;Not A Problem;1;50
+6;Apache MXNet;540;CLOSED;30.07.2018 20:55;13.08.2018 20:55;14;26660;Summarize Scala issues and update CWiki;Sub-task;Done;\N;2;60
+6;Apache MXNet;540;CLOSED;30.07.2018 20:55;13.08.2018 20:55;14;26267;Make ResourceScope work in Java.;Sub-task;Done;\N;3;160
+6;Apache MXNet;540;CLOSED;30.07.2018 20:55;13.08.2018 20:55;14;26686;Create scripts for generation of different flavors of MXNet static lib;Sub-task;Done;Fixed;5;70
+6;Apache MXNet;540;CLOSED;30.07.2018 20:55;13.08.2018 20:55;14;26235;Integrate binary build scripts into pipeline;Sub-task;Done;\N;5;90
+6;Apache MXNet;540;CLOSED;30.07.2018 20:55;13.08.2018 20:55;14;26238;Multi-Environment Testing;Sub-task;Done;\N;5;170
+6;Apache MXNet;540;CLOSED;30.07.2018 20:55;13.08.2018 20:55;14;26555;create basic build pipeline on CI;Sub-task;Done;\N;5;340
+6;Apache MXNet;561;CLOSED;13.08.2018 19:46;26.08.2018 19:46;12;26618;Dropout may mask values even when ratio=0.0;Bug;Done;Fixed;1;90
+6;Apache MXNet;561;CLOSED;13.08.2018 19:46;26.08.2018 19:46;12;26612;Dangling outputs and dtype != float32: Gradient computation fails;Bug;Done;\N;1;240
+6;Apache MXNet;561;CLOSED;13.08.2018 19:46;26.08.2018 19:46;12;26604;Undefined Behavior of mx.sym.where with shape-mismatched cond;Bug;Done;\N;2;60
+6;Apache MXNet;559;CLOSED;27.08.2018 23:49;10.09.2018 23:49;13;26600;src/operator/./bilinear_sampler-inl.h:105: Have not implemented the data req combinations! gdata_req=0 ggrid_req=1;Bug;Done;\N;2;90
+6;Apache MXNet;559;CLOSED;27.08.2018 23:49;10.09.2018 23:49;13;26603;Some mxnet ctc_loss bug;Improvement;Done;\N;5;460
+6;Apache MXNet;556;CLOSED;10.09.2018 16:49;24.09.2018 16:49;13;26550;"Pooling1D with ""same"" padding";New Feature;Done;\N;1;270
+6;Apache MXNet;556;CLOSED;10.09.2018 16:49;24.09.2018 16:49;13;26505;Port the ctc_loss operator from contrib to operators and refactor the implementation;New Feature;Done;\N;2;360
+6;Apache MXNet;557;CLOSED;10.09.2018 18:53;24.09.2018 18:53;13;26504;Support NDArray MXNet interface (no default values are supported);Story;Done;\N;13;370
+6;Apache MXNet;554;CLOSED;24.09.2018 19:32;08.10.2018 19:32;13;26419;Get True value from MXNet Scala NDArray;Bug;Done;\N;3;600
+6;Apache MXNet;554;CLOSED;24.09.2018 19:32;08.10.2018 19:32;13;26690;Benchmark for Inference API (single and batch);Sub-task;Done;\N;5;280
+6;Apache MXNet;554;CLOSED;24.09.2018 19:32;08.10.2018 19:32;13;26435;Extend JNDArray class to proxy whole functionality of NDArray;Story;Done;\N;5;540
+6;Apache MXNet;551;CLOSED;08.10.2018 17:54;22.10.2018 17:54;13;26386;BUG in MultiBoxTargetForward when there is single box label;Bug;Done;\N;3;80
+6;Apache MXNet;553;CLOSED;08.10.2018 20:31;22.10.2018 20:31;13;26378;Enable Java API Benchmark runs;Story;Done;\N;5;280
+6;Apache MXNet;550;CLOSED;22.10.2018 19:52;05.11.2018 19:52;13;26266;Create Install and build instructions- per platform (Linux CPU/GPU, OSX CPU);Story;Done;\N;1;370
+6;Apache MXNet;548;CLOSED;22.10.2018 22:35;05.11.2018 22:35;13;26315;Review and merge final API design to MXNet repository;Task;Done;Fixed;5;230
+6;Apache MXNet;549;CLOSED;22.10.2018 23:24;05.11.2018 23:24;13;26340;Write examples to demonstrate the inference workflow using C++ API.;Story;Done;\N;3;870
+6;Apache MXNet;549;CLOSED;22.10.2018 23:24;05.11.2018 23:24;13;26305;Write an example to demonstrate the inference workflow using RNN;Story;Done;\N;8;1140
+6;Apache MXNet;547;CLOSED;05.11.2018 23:37;19.11.2018 18:44;13;26220;cherry-pick resource scope PR;Sub-task;Done;\N;1;20
+6;Apache MXNet;547;CLOSED;05.11.2018 23:37;19.11.2018 18:44;13;26213;Clean up NDArray;Sub-task;Done;\N;1;40
+6;Apache MXNet;547;CLOSED;05.11.2018 23:37;19.11.2018 18:44;13;26346;Update Scala/Java API bindings to log4j v2.11;Story;Done;\N;1;50
+6;Apache MXNet;547;CLOSED;05.11.2018 23:37;19.11.2018 18:44;13;26215;fix document issue;Sub-task;Done;\N;1;60
+6;Apache MXNet;547;CLOSED;05.11.2018 23:37;19.11.2018 18:44;13;26214;add CentOS build for Scala/Java package;Bug;Done;\N;3;130
+6;Apache MXNet;547;CLOSED;05.11.2018 23:37;19.11.2018 18:44;13;26244;Create Java/Scala API example with using Predictor API;Story;Done;\N;3;220
+6;Apache MXNet;547;CLOSED;05.11.2018 23:37;19.11.2018 18:44;13;26224;NDArrayBuilder: Better api naming;Sub-task;Done;\N;5;150
+6;Apache MXNet;545;CLOSED;19.11.2018 23:39;03.12.2018 18:46;13;26206;Enable custom Shape input for inference;Improvement;Done;\N;3;110
+6;Apache MXNet;541;CLOSED;04.12.2018 04:30;17.12.2018 23:37;13;26181;Fix Performance issue with GPU of Object Detector;New Feature;Done;\N;3;50
+6;Apache MXNet;539;CLOSED;14.01.2019 21:40;28.01.2019 16:47;13;26140;Change Java API method signatures to take Iterables instead of List;Improvement;Done;\N;2;20
+6;Apache MXNet;539;CLOSED;14.01.2019 21:40;28.01.2019 16:47;13;26147;Add Bounding Boxes over the image in SSD Example;Improvement;Done;\N;3;180
+11;Titanium Mobile Platform;1073;CLOSED;12.05.2014 16:00;24.05.2014 00:00;11;39976;Release Notes: Format - The format for release notes are not uniform across supported features;Bug;Closed;Fixed;21;360
+11;Titanium Mobile Platform;1072;CLOSED;09.06.2014 23:59;21.06.2014 00:00;11;39524;Create a new method likes/query.json;New Feature;Closed;Fixed;8;60
+11;Titanium Mobile Platform;1072;CLOSED;09.06.2014 23:59;21.06.2014 00:00;11;40093;DocTools: Add full-text search integration for JSDuck;New Feature;Closed;Fixed;8;1440
+11;Titanium Mobile Platform;1070;CLOSED;07.07.2014 20:38;21.07.2014 20:38;13;39520;Add iOS native SDK code samples to ACS API reference guide ;New Feature;Closed;Fixed;13;720
+11;Titanium Mobile Platform;1070;CLOSED;07.07.2014 20:38;21.07.2014 20:38;13;39478;Android: Native Cloud SDK;Technical task;Closed;Fixed;13;1440
+11;Titanium Mobile Platform;1068;CLOSED;22.07.2014 15:09;05.08.2014 15:09;13;39419;Cloud: Add acs push log query api in cloud documentation;New Feature;Closed;Fixed;8;240
+11;Titanium Mobile Platform;1065;CLOSED;19.08.2014 16:00;30.08.2014 00:00;10;39393;Remove references to built-in / supplied widgets;Improvement;Closed;Fixed;8;15
+11;Titanium Mobile Platform;1061;CLOSED;27.10.2014 16:00;08.11.2014 01:00;11;39239;"Android: TableView: SearchBar not working if ""filterAttribute"" is an arbitrary property";Bug;Closed;Fixed;5;480
+11;Titanium Mobile Platform;1023;CLOSED;28.03.2016 04:03;08.04.2016 04:03;10;38772;Something going wrong with cross links in API reference;Bug;Closed;Fixed;2;60
+11;Titanium Mobile Platform;1027;CLOSED;25.08.2016 17:04;08.09.2016 17:04;13;38800;Update docs related to Android's resources;Improvement;Closed;Fixed;1;15
+11;Titanium Mobile Platform;1027;CLOSED;25.08.2016 17:04;08.09.2016 17:04;13;38809;Link to pre-release docs does not work;Bug;Closed;Fixed;1;15
+11;Titanium Mobile Platform;1022;CLOSED;25.08.2016 17:05;08.09.2016 17:05;13;38765;reference to nearshpere geo search from custom field and geo doc;Story;Closed;Fixed;1;30
+11;Titanium Mobile Platform;1020;CLOSED;25.08.2016 17:06;08.09.2016 17:06;13;38753;"Add more info to troubleshooting steps of ""Errors Logging In to Studio"" in documentation.";Improvement;Closed;Fixed;1;30
+11;Titanium Mobile Platform;1010;CLOSED;26.08.2016 21:13;09.09.2016 21:00;13;38704;Publish CLI 5.5.0.RC release note;Story;Closed;Fixed;1;120
+11;Titanium Mobile Platform;1010;CLOSED;26.08.2016 21:13;09.09.2016 21:00;13;38705;Publish SDK 5.5.0.RC release note;Story;Closed;Fixed;1;120
+11;Titanium Mobile Platform;1010;CLOSED;26.08.2016 21:13;09.09.2016 21:00;13;38706;Publish Dashboard 4.9.0 release note;Story;Closed;Fixed;1;150
+11;Titanium Mobile Platform;1008;CLOSED;03.09.2016 20:23;09.09.2016 20:23;6;38701;LiveView: Add note about Android stay awake;Improvement;Closed;Fixed;1;15
+11;Titanium Mobile Platform;1008;CLOSED;03.09.2016 20:23;09.09.2016 20:23;6;38714;incorrect link;Bug;Closed;Cannot Reproduce;1;15
+11;Titanium Mobile Platform;1008;CLOSED;03.09.2016 20:23;09.09.2016 20:23;6;38717;Invalid links;Bug;Closed;Fixed;1;15
+11;Titanium Mobile Platform;1008;CLOSED;03.09.2016 20:23;09.09.2016 20:23;6;38700;document how to select or unselect fields using arrowdb api;Improvement;Closed;Fixed;1;60
+11;Titanium Mobile Platform;1008;CLOSED;03.09.2016 20:23;09.09.2016 20:23;6;38866;"Add ""CFBundleDevelopmentRegion"" in the Titanium docs";Improvement;Closed;Fixed;1;60
+11;Titanium Mobile Platform;1008;CLOSED;03.09.2016 20:23;09.09.2016 20:23;6;38696;Windows LeftNavButton RightNavButton Documentation is missing.;Bug;Closed;Fixed;1;90
+11;Titanium Mobile Platform;1008;CLOSED;03.09.2016 20:23;09.09.2016 20:23;6;38697;missing images in documents;Improvement;Closed;Fixed;1;90
+11;Titanium Mobile Platform;1008;CLOSED;03.09.2016 20:23;09.09.2016 20:23;6;38698;Create/Update drafts of release notes;Story;Closed;Fixed;2;120
+11;Titanium Mobile Platform;1008;CLOSED;03.09.2016 20:23;09.09.2016 20:23;6;38710;Support switching organizations without needing to logout and in again;New Feature;Closed;Fixed;8;60
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38669;Fix Titanium/UI/iOS/TabbedBar.yml;Sub-task;Closed;Fixed;1;5
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38670;Fix Titanium/UI/iOS/PushBehavior.yml;Sub-task;Closed;Fixed;1;5
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38671;Fix Titanium/UI/iOS/PreviewActionGroup.yml;Sub-task;Closed;Fixed;1;5
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38672;Fix Titanium/UI/iOS/PreviewAction.yml;Sub-task;Closed;Fixed;1;5
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38674;Fix Titanium/UI/iOS/LivePhotoView.yml;Sub-task;Closed;Fixed;1;5
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38675;Fix Titanium/UI/iOS/CollisionBehavior.yml;Sub-task;Closed;Fixed;1;5
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38676;Fix Titanium/UI/iOS/BlurView.yml;Sub-task;Closed;Fixed;1;5
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38677;Fix Titanium/UI/iOS/Attribute.yml;Sub-task;Closed;Fixed;1;5
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38679;Fix Titanium/UI/iOS/AdView.yml;Sub-task;Closed;Fixed;1;5
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38680;Titanium/UI/WebView.yml;Sub-task;Closed;Fixed;1;5
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38668;Fix Titanium/Facebook/Facebook.yml;Sub-task;Closed;Won't Fix;1;10
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38681;Fix Titanium/UI/SearchBar.yml;Sub-task;Closed;Fixed;1;10
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38664;Modules.https documentation needs to mention Pro;Bug;Closed;Fixed;1;15
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38685;Fix Titanium/UI/ButtonBar.yml;Sub-task;Closed;Won't Fix;1;15
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38687;Fix Titanium/Media/MusicPlayer.yml;Sub-task;Closed;Fixed;1;15
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38692;Fix links on https://appcelerator.github.io/appc-docs/platform/latest/;Bug;Closed;Cannot Reproduce;1;15
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38738;There is an error in Positioning and dimensions of elements section of the documentation;Bug;Closed;Fixed;1;15
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38678;Fix Titanium/UI/iOS/ApplicationShortcuts.yml;Sub-task;Closed;Won't Fix;1;30
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38689;Fix Titanium/Media/AudioRecorder.yml;Sub-task;Closed;Won't Fix;1;60
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38728;Fix spelling/grammar errors for Arrow DB APIs;Bug;Closed;Fixed;1;60
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38684;Fix Titanium/UI/ListSection.yml;Sub-task;Closed;Won't Fix;1;165
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38673;Fix Titanium/UI/iOS/MenuPopup.yml;Sub-task;Closed;Fixed;3;120
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38666;Create and publish SDK 5.5.0.GA release note;New Feature;Closed;Fixed;3;300
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38695;Create revision history for Self-install guide;New Feature;Closed;Fixed;5;240
+11;Titanium Mobile Platform;1006;CLOSED;09.09.2016 21:11;16.09.2016 21:11;6;38694;Build a guide that documents every doc pub script function;New Feature;Closed;Fixed;8;675
+11;Titanium Mobile Platform;1005;CLOSED;16.09.2016 21:57;23.09.2016 21:57;6;39175;h6 heading size too small on docs pages;Bug;Closed;Fixed;1;15
+11;Titanium Mobile Platform;1005;CLOSED;16.09.2016 21:57;23.09.2016 21:57;6;39746;Incorrect information for Ti.TextArea, Ti.Label autolink property;Bug;Closed;Fixed;1;15
+11;Titanium Mobile Platform;1005;CLOSED;16.09.2016 21:57;23.09.2016 21:57;6;40074;TableView: touchstart event - Missing Android platform logo;Bug;Closed;Fixed;1;15
+11;Titanium Mobile Platform;1005;CLOSED;16.09.2016 21:57;23.09.2016 21:57;6;38720;Appc cloud loglist's documentation is not clear;Improvement;Closed;Fixed;1;30
+11;Titanium Mobile Platform;1005;CLOSED;16.09.2016 21:57;23.09.2016 21:57;6;38862;appcelerator.github.io/appc-doc latest page is missing a few links;Bug;Closed;Fixed;1;30
+11;Titanium Mobile Platform;1005;CLOSED;16.09.2016 21:57;23.09.2016 21:57;6;39247;Add description and example of query by id;Improvement;Closed;Fixed;1;45
+11;Titanium Mobile Platform;1005;CLOSED;16.09.2016 21:57;23.09.2016 21:57;6;38661;Require new documentation for the new acs restart command;New Feature;Resolved;Fixed;1;60
+11;Titanium Mobile Platform;1003;CLOSED;23.09.2016 20:53;30.09.2016 20:53;6;38657;Create and publish CLI 5.5.1 release note;New Feature;Closed;Fixed;1;15
+11;Titanium Mobile Platform;1003;CLOSED;23.09.2016 20:53;30.09.2016 20:53;6;38855;Windows Phone icon missing from the API docs;Bug;Closed;Fixed;1;30
+11;Titanium Mobile Platform;1003;CLOSED;23.09.2016 20:53;30.09.2016 20:53;6;38858;iOS: Ti.WatchSession.sendMessage is incorrect for 5.1.x;Bug;Closed;Fixed;1;30
+11;Titanium Mobile Platform;1003;CLOSED;23.09.2016 20:53;30.09.2016 20:53;6;38864;Links on homepage of nightly docs do not work;Bug;Closed;Cannot Reproduce;1;315
+11;Titanium Mobile Platform;1003;CLOSED;23.09.2016 20:53;30.09.2016 20:53;6;38658;Create and publish SDK 5.5.1;New Feature;Closed;Fixed;2;120
+11;Titanium Mobile Platform;1002;CLOSED;30.09.2016 21:16;07.10.2016 21:16;6;38645;Arrow Builder: API documentation missing parameter field;Bug;Closed;Fixed;1;15
+11;Titanium Mobile Platform;1002;CLOSED;30.09.2016 21:16;07.10.2016 21:16;6;38651;Confirm if these pages are needed;Bug;Closed;Fixed;2;15
+11;Titanium Mobile Platform;1002;CLOSED;30.09.2016 21:16;07.10.2016 21:16;6;38650;Figure out what to do with these pages;Bug;Closed;Fixed;2;30
+11;Titanium Mobile Platform;1001;CLOSED;07.10.2016 21:58;14.10.2016 21:58;6;38647;Allow create Alloy Application Templates using Rubles;Story;Closed;Fixed;1;15
+11;Titanium Mobile Platform;1001;CLOSED;07.10.2016 21:58;14.10.2016 21:58;6;38642;Document the appendTitles.js script;New Feature;Closed;Fixed;1;60
+11;Titanium Mobile Platform;999;CLOSED;14.10.2016 21:18;21.10.2016 21:18;6;38627;Incorrect ArrowDB API documentation for user password reset method;Bug;Closed;Fixed;1;15
+11;Titanium Mobile Platform;999;CLOSED;14.10.2016 21:18;21.10.2016 21:18;6;38633;Create release note for Studio 4.8.0.RC;New Feature;Closed;Fixed;3;60
+11;Titanium Mobile Platform;999;CLOSED;14.10.2016 21:18;21.10.2016 21:18;6;38635;Create release note for CLI 6.0.0.RC;New Feature;Closed;Fixed;3;60
+11;Titanium Mobile Platform;999;CLOSED;14.10.2016 21:18;21.10.2016 21:18;6;38638;Create release note for SDK 6.0.0.RC;New Feature;Closed;Fixed;3;60
+11;Titanium Mobile Platform;998;CLOSED;21.10.2016 20:45;28.10.2016 20:45;6;38622;Create outline for Arrow Builder 1.10.0;Story;Resolved;Fixed;7;270
+11;Titanium Mobile Platform;990;CLOSED;30.01.2017 20:47;03.02.2017 20:47;4;39057;"On docs.appcelerator.com, the ""Appcelerator Platform Documenation"" header should be right-aligned with other sections";Improvement;Closed;Fixed;1;15
+11;Titanium Mobile Platform;979;CLOSED;03.03.2017 21:05;10.03.2017 22:05;7;38505;Create a draft of the Capacity Planning Guide;New Feature;Closed;Fixed;14;480
+11;Titanium Mobile Platform;976;CLOSED;10.03.2017 22:21;17.03.2017 22:21;6;38495;Review API Builder Documentation;Story;Closed;Fixed;1;480
+11;Titanium Mobile Platform;976;CLOSED;10.03.2017 22:21;17.03.2017 22:21;6;38493;Review API Runtime Services Documentation;Story;Closed;Fixed;1;960
+11;Titanium Mobile Platform;954;CLOSED;04.08.2017 19:58;11.08.2017 19:58;6;38349;Add opening document summaries - API Builder;Improvement;Closed;Fixed;7;480
+11;Titanium Mobile Platform;933;CLOSED;26.01.2018 20:35;02.02.2018 20:35;6;38577;Generate a new copy of the Appcelerator Private Word/PDF;Bug;Closed;Fixed;6;960
+11;Titanium Mobile Platform;930;CLOSED;23.02.2018 22:52;02.03.2018 22:52;6;38659;The docs on creating an API key is outdated.;Bug;Closed;Fixed;1;15
+11;Titanium Mobile Platform;942;CLOSED;12.03.2018 15:30;16.03.2018 15:30;3;38707;Tooling: docgen.py: Some Dictionary types are not being output;Bug;Closed;Fixed;1;60
+11;Titanium Mobile Platform;922;CLOSED;22.04.2018 22:53;06.05.2018 22:53;13;38176;Audioplayer is having deprecated links to audioSessionMode;Improvement;Closed;Fixed;1;5
+11;Titanium Mobile Platform;908;CLOSED;10.08.2018 20:33;17.08.2018 20:33;6;39377;acs login shows username in paranthesis and still prompts for entering one;Bug;Closed;Duplicate;3;20
+17;Atlassian FishEye;1269;CLOSED;11.07.2012 03:58;24.07.2012 22:01;13;49025;Upgrade crowd client to 2.3.x. Currently fisheye ships with 2.2.5.;Suggestion;Closed;Fixed;3;13
+17;Atlassian FishEye;1269;CLOSED;11.07.2012 03:58;24.07.2012 22:01;13;49008;Trying to browse a file name containing a + generates an error;Bug;Closed;Fixed;3;15
+17;Atlassian FishEye;1269;CLOSED;11.07.2012 03:58;24.07.2012 22:01;13;49011;Overlapping Label Text in FishEye UI Using Internet Explorer (IE9);Bug;Closed;Fixed;3;35
+17;Atlassian FishEye;1267;CLOSED;11.10.2012 10:07;25.10.2012 10:07;14;48905;'Download archive' (aka tarball): name of zip is truncated to 20 characters;Suggestion;Closed;Fixed;2;10
+17;Atlassian FishEye;1267;CLOSED;11.10.2012 10:07;25.10.2012 10:07;14;49029;Incorrect time indication on comment section when viewing revision details;Bug;Closed;Fixed;2;16
+17;Atlassian FishEye;1267;CLOSED;11.10.2012 10:07;25.10.2012 10:07;14;48976;Extend REST API to include starting and stopping a repository and to allow for re-indexing ;Suggestion;Closed;Fixed;5;98
+17;Atlassian FishEye;1263;CLOSED;06.02.2013 01:33;19.02.2013 23:01;13;48769;REST API Call revisionInfo Fails For JSON;Bug;Closed;Fixed;1;17
+17;Atlassian FishEye;1240;CLOSED;26.06.2014 07:09;08.07.2014 06:00;11;48045;URLs provided by FishEye/Crucible in development status panel popups should use baseUrl;Bug;Closed;Fixed;2;18
+17;Atlassian FishEye;1242;CLOSED;19.08.2014 07:00;02.09.2014 07:00;13;48598;Renaming a user to a deleted user fails;Bug;Closed;Fixed;3;72
+17;Atlassian FishEye;1242;CLOSED;19.08.2014 07:00;02.09.2014 07:00;13;49277;FishEye does not index git tags that are not referenced by a branch;Bug;Closed;Fixed;5;27
+17;Atlassian FishEye;1235;CLOSED;17.09.2014 11:00;30.09.2014 06:00;12;48613;User admin screen fetches the whole user list one by one;Bug;Closed;Fixed;3;125
+17;Atlassian FishEye;1233;CLOSED;07.01.2015 10:22;16.01.2015 17:00;9;47985;Make Directory Scanning Plugin traverse directory tree;Suggestion;Closed;Fixed;0,5;414
+17;Atlassian FishEye;1219;CLOSED;25.08.2015 09:10;28.08.2015 15:00;3;48183;Repository indexing hangs if start-rev is set to 1;Bug;Closed;Fixed;0,5;125
+17;Atlassian FishEye;1212;CLOSED;14.09.2015 08:55;29.09.2015 14:45;15;47633;NPS warnings on instance startup;Bug;Closed;Fixed;0,5;126
+17;Atlassian FishEye;1218;CLOSED;05.10.2015 09:09;13.10.2015 21:59;8;51845;FE requests 'all user names', which will fail for AD having a default cap of 1000 users maximum;Bug;Closed;Fixed;0,5;37
+17;Atlassian FishEye;1184;CLOSED;02.07.2018 10:10;20.07.2018 18:00;18;47074;Analytics plugin requires joda-time 2.2 or later;Bug;Closed;Fixed;0,5;38
+17;Atlassian FishEye;1181;CLOSED;24.09.2018 13:23;12.10.2018 21:13;18;47080;Upgrade SVNKit to 1.9.3;Suggestion;Closed;Fixed;1;53
+17;Atlassian FishEye;1180;CLOSED;15.10.2018 13:08;02.11.2018 20:58;18;47095;Support for PostgreSQL 10;Suggestion;Closed;Fixed;0,5;62
+17;Atlassian FishEye;1177;CLOSED;03.06.2019 13:05;21.06.2019 20:55;18;48804;Fisheye should be aware of svn keywords, specifically when anchoring patches;Bug;Closed;Fixed;1;34
+17;Atlassian FishEye;1171;CLOSED;10.02.2020 13:32;28.02.2020 21:22;18;46951;Use JavaScript instead of Flash for copying to clipboard;Suggestion;Closed;Fixed;0,5;75
+23;Hyperledger Blockchain Explorer;2672;CLOSED;09.04.2018 12:24;20.04.2018 13:24;11;204936;Resolve licensing issues discovered by Fossology scan;New Feature;Complete;Done;1;1920
+23;Hyperledger Blockchain Explorer;2672;CLOSED;09.04.2018 12:24;20.04.2018 13:24;11;204964;Coaching and Mentoring new team members - Sprint 5;New Feature;Complete;Done;3;120
+23;Hyperledger Blockchain Explorer;2671;CLOSED;20.04.2018 16:12;04.05.2018 17:12;14;204912;Utilized Moment.js to Display Date and Time;New Feature;Complete;Done;1;180
+23;Hyperledger Blockchain Explorer;2671;CLOSED;20.04.2018 16:12;04.05.2018 17:12;14;204904;Merge release 3.1 to Master;Task;Complete;Done;2;120
+23;Hyperledger Blockchain Explorer;2671;CLOSED;20.04.2018 16:12;04.05.2018 17:12;14;204963;Coaching and Mentoring new team members - Sprint 6;New Feature;Complete;Done;3;180
+23;Hyperledger Blockchain Explorer;2670;CLOSED;07.05.2018 12:53;18.05.2018 13:53;11;204901;Activity Stream - Back End ;Task;Complete;Done;3;180
+23;Hyperledger Blockchain Explorer;2670;CLOSED;07.05.2018 12:53;18.05.2018 13:53;11;204929;Get Explorer to work with Fabric 1.1;New Feature;Complete;Done;10;120
+23;Hyperledger Blockchain Explorer;2669;CLOSED;21.05.2018 13:16;01.06.2018 14:16;11;204961;Coaching and Mentoring new team members - Sprint 8;New Feature;Complete;Done;3;600
+23;Hyperledger Blockchain Explorer;2669;CLOSED;21.05.2018 13:16;01.06.2018 14:16;11;204876;Create channel by uploading channel artifacts;New Feature;Complete;Done;7;1920
+23;Hyperledger Blockchain Explorer;2668;CLOSED;04.06.2018 21:42;15.06.2018 22:42;11;204860;Need to upgrade fabric clients to 1.1.2 version;New Feature;Complete;Done;1;180
+23;Hyperledger Blockchain Explorer;2668;CLOSED;04.06.2018 21:42;15.06.2018 22:42;11;204851;Restructure project platform specific;New Feature;Complete;Done;3;480
+23;Hyperledger Blockchain Explorer;2668;CLOSED;04.06.2018 21:42;15.06.2018 22:42;11;204960;Coaching and Mentoring new team members - Sprint 9;New Feature;Complete;Done;3;660
+23;Hyperledger Blockchain Explorer;2668;CLOSED;04.06.2018 21:42;15.06.2018 22:42;11;204864;Refactor create channel to use HLF configtxgen tool;New Feature;Complete;Done;5;1440
+23;Hyperledger Blockchain Explorer;2668;CLOSED;04.06.2018 21:42;15.06.2018 22:42;11;204865; Update channel table - Part 2;New Feature;Complete;Done;7;960
+23;Hyperledger Blockchain Explorer;2667;CLOSED;18.06.2018 11:02;29.06.2018 12:02;11;204834;upgrade node client to 1.1.2;Task;Complete;Done;2;240
+23;Hyperledger Blockchain Explorer;2667;CLOSED;18.06.2018 11:02;29.06.2018 12:02;11;204837;Merge release-3.3 into Master;New Feature;Complete;Done;2;420
+23;Hyperledger Blockchain Explorer;2667;CLOSED;18.06.2018 11:02;29.06.2018 12:02;11;204959;Coaching and Mentoring new team members - Sprint 10;New Feature;Complete;Done;3;545
+23;Hyperledger Blockchain Explorer;2667;CLOSED;18.06.2018 11:02;29.06.2018 12:02;11;204980;Full Testing of Patch - Sprint #10;New Feature;Complete;Done;4;780
+23;Hyperledger Blockchain Explorer;2667;CLOSED;18.06.2018 11:02;29.06.2018 12:02;11;204897;Historical Data Retrieval for peers  ;New Feature;Complete;Done;5;1680
+23;Hyperledger Blockchain Explorer;2666;CLOSED;02.07.2018 11:43;13.07.2018 12:43;11;204806;Compress HTTP Request and Response ;Task;Complete;Done;3;120
+23;Hyperledger Blockchain Explorer;2666;CLOSED;02.07.2018 11:43;13.07.2018 12:43;11;204958;Coaching and Mentoring new team members - Sprint 11;New Feature;Complete;Done;3;960
+23;Hyperledger Blockchain Explorer;2666;CLOSED;02.07.2018 11:43;13.07.2018 12:43;11;204825;REST API response analyses;New Feature;Complete;Done;3;2640
+23;Hyperledger Blockchain Explorer;2665;CLOSED;16.07.2018 12:49;27.07.2018 13:49;11;204871;Automatic Code Formatting;New Feature;Complete;Done;3;120
+23;Hyperledger Blockchain Explorer;2665;CLOSED;16.07.2018 12:49;27.07.2018 13:49;11;204824;Application logging analyses;New Feature;Complete;Done;3;360
+23;Hyperledger Blockchain Explorer;2665;CLOSED;16.07.2018 12:49;27.07.2018 13:49;11;204957;Coaching and Mentoring new team members - Sprint 12;New Feature;Complete;Done;3;1500
+28;Lsstcorp Data management;3284;CLOSED;07.03.2014 23:25;15.03.2014 00:00;7;247600;Update installation instructions;Story;Done;Done;1;1622
+28;Lsstcorp Data management;3279;CLOSED;01.04.2014 18:20;30.04.2014 18:20;28;247502;Setup dev test environment;Story;Done;Done;8;720
+28;Lsstcorp Data management;3279;CLOSED;01.04.2014 18:20;30.04.2014 18:20;28;247452;Investigate new XrdSsi interface;Story;Done;Done;10;240
+28;Lsstcorp Data management;3247;CLOSED;10.10.2014 19:00;01.11.2014 00:48;21;246557;Create change request for LSE-69;Story;Done;Done;1;180
+28;Lsstcorp Data management;3247;CLOSED;10.10.2014 19:00;01.11.2014 00:48;21;246561;Pre-CCB review of LSE-140 docgen;Story;Done;Done;2;60
+28;Lsstcorp Data management;3184;CLOSED;01.08.2016 15:33;02.09.2016 06:33;31;241123;Create access policy for PDAC;Story;Done;Done;4;300
+28;Lsstcorp Data management;3177;CLOSED;01.10.2016 18:21;01.11.2016 06:59;30;240222;white paper to describe visualization needs for LSST in multiple use cases;Story;Reviewed;\N;4;240
+28;Lsstcorp Data management;3165;CLOSED;03.01.2017 17:55;01.02.2017 06:33;28;239407;Create a Unit Test for Geom class;Story;Done;Done;8;120
+28;Lsstcorp Data management;3106;CLOSED;01.03.2018 19:08;31.03.2018 20:53;30;242196;Level 3 requirements flowdown;Story;Done;Done;3;1590
+28;Lsstcorp Data management;2961;CLOSED;02.09.2019 20:43;14.09.2019 20:43;11;227219;Update Environment CSC to salobj 4 and make is a Configurable CSC;Story;Done;Done;1;600
+28;Lsstcorp Data management;2961;CLOSED;02.09.2019 20:43;14.09.2019 20:43;11;228394;Make ATSpectrograph configurable;Story;Done;Done;1;600
+28;Lsstcorp Data management;2956;CLOSED;01.10.2019 00:17;13.10.2019 00:17;11;226764;white light + chiller lab testing ;Story;Done;Done;4;3360
+28;Lsstcorp Data management;2956;CLOSED;01.10.2019 00:17;13.10.2019 00:17;11;226597;Write an MT rotator CSC in Python;Story;Done;Done;8;240
+28;Lsstcorp Data management;2954;CLOSED;14.10.2019 20:19;26.10.2019 20:19;11;226511;Make a few simple scripts that exercise the MT Rotator and Hexapod;Story;Done;Done;1;240
+28;Lsstcorp Data management;2954;CLOSED;14.10.2019 20:19;26.10.2019 20:19;11;226496;Support testing the rotator at SLAC;Improvement;Done;Done;1;480
+28;Lsstcorp Data management;2954;CLOSED;14.10.2019 20:19;26.10.2019 20:19;11;226548;Deploy watcher on Tucson test stand and in the summit;Story;Done;Done;1;480
+28;Lsstcorp Data management;2954;CLOSED;14.10.2019 20:19;26.10.2019 20:19;11;226550;Improvements on attcs class;Story;Done;Done;1;720
+28;Lsstcorp Data management;2954;CLOSED;14.10.2019 20:19;26.10.2019 20:19;11;226480;Shadow Rob for M1M3 testing;Story;Done;Done;2;960
+28;Lsstcorp Data management;2954;CLOSED;14.10.2019 20:19;26.10.2019 20:19;11;226535;Revamp Electrometer CSC to use salobj 4;Story;Done;Done;2;960
+28;Lsstcorp Data management;2954;CLOSED;14.10.2019 20:19;26.10.2019 20:19;11;226549;Write Auxiliary Telescope operations documentation.;Story;Done;Done;2;960
+28;Lsstcorp Data management;2954;CLOSED;14.10.2019 20:19;26.10.2019 20:19;11;226559;Test the Updated Middleware with Bare Rotator;Story;Done;Done;3;960
+28;Lsstcorp Data management;2954;CLOSED;14.10.2019 20:19;26.10.2019 20:19;11;227017;M1M3 functional testing - part 4;Story;Done;Done;4;1920
+28;Lsstcorp Data management;2954;CLOSED;14.10.2019 20:19;26.10.2019 20:19;11;226502;Advanced SpatialAnalyzer training;Story;Done;Done;5;1440
+28;Lsstcorp Data management;2950;CLOSED;28.10.2019 22:01;09.11.2019 22:01;11;226276;Deploy xml 4.4 on Tucson Test Stand. ;Story;Done;Done;1;960
+28;Lsstcorp Data management;2934;CLOSED;06.01.2020 22:25;18.01.2020 22:25;11;225257;HVAC XML to MQTT;Story;Done;Done;2;960
+28;Lsstcorp Data management;2934;CLOSED;06.01.2020 22:25;18.01.2020 22:25;11;225219;Read Dome software docs;Story;Done;Done;4;1920
+28;Lsstcorp Data management;2929;CLOSED;20.01.2020 14:09;03.02.2020 14:09;13;225133;Add basic IDL Type test;Story;Done;Done;2;960
+28;Lsstcorp Data management;2929;CLOSED;20.01.2020 14:09;03.02.2020 14:09;13;225121;Create HVAC Commands SAL XML file ;Story;Done;Done;4;1920
+28;Lsstcorp Data management;2928;CLOSED;03.02.2020 22:11;17.02.2020 22:11;13;225160;Add XML tests to verify a topic does not contain special characters;Story;Done;Done;1;480
+28;Lsstcorp Data management;2927;CLOSED;17.02.2020 17:59;02.03.2020 17:59;13;224784;Create XML files with proposed command protocol;Story;Done;Done;1;480
+28;Lsstcorp Data management;2927;CLOSED;17.02.2020 17:59;02.03.2020 17:59;13;224646;Prepare ts_dcs for SALObj;Story;Done;Done;2;1800
+28;Lsstcorp Data management;2927;CLOSED;17.02.2020 17:59;02.03.2020 17:59;13;224782;Implement replies to command details in mock controller;Story;Done;Done;2;1920
+28;Lsstcorp Data management;2927;CLOSED;17.02.2020 17:59;02.03.2020 17:59;13;224783;Create mock controler framework for communications between upper and lower level DCS;Story;Done;Done;2;1920
+28;Lsstcorp Data management;2927;CLOSED;17.02.2020 17:59;02.03.2020 17:59;13;225069;Provide basic English Description based on Spanish MQTT Topic names;Story;Done;Done;3;480
+28;Lsstcorp Data management;2925;CLOSED;02.03.2020 18:30;16.03.2020 18:30;13;224474;Make sure that the reply to the STATUS command is in line with the proposed communications protocol;Story;Done;Done;1;240
+28;Lsstcorp Data management;2925;CLOSED;02.03.2020 18:30;16.03.2020 18:30;13;224476;Add additional SALOBJ functions to the Dome CSC;Story;Done;Done;2;960
+28;Lsstcorp Data management;2924;CLOSED;16.03.2020 19:12;30.03.2020 19:12;13;224321;Consolidate assertComponent and assertOK functions into one assertReply function;Story;Done;Done;1;60
+28;Lsstcorp Data management;2924;CLOSED;16.03.2020 19:12;30.03.2020 19:12;13;224325;Correct sending of OK reply in mock_controller;Story;Done;Done;1;60
+28;Lsstcorp Data management;2924;CLOSED;16.03.2020 19:12;30.03.2020 19:12;13;224385;Produce and consume communication strings with YAML;Story;Done;Done;3;960
+28;Lsstcorp Data management;2924;CLOSED;16.03.2020 19:12;30.03.2020 19:12;13;224364;Error handling while initializing M1M3 support;Story;Done;Done;5;960
+28;Lsstcorp Data management;2921;CLOSED;30.03.2020 19:07;13.04.2020 20:07;14;223933;Refactor duplicate code and add a task scheduler;Story;Done;Done;1;480
+28;Lsstcorp Data management;2921;CLOSED;30.03.2020 19:07;13.04.2020 20:07;14;224279;Inspect current situation regarding M2 hexapod thermal sensors;Story;Done;Done;1;480
+28;Lsstcorp Data management;2921;CLOSED;30.03.2020 19:07;13.04.2020 20:07;14;224280;Read DIMM documentation;Story;Done;Done;2;240
+28;Lsstcorp Data management;2921;CLOSED;30.03.2020 19:07;13.04.2020 20:07;14;224276;Implement connect and disconnect functions in DCS;Story;Done;Done;2;480
+28;Lsstcorp Data management;2921;CLOSED;30.03.2020 19:07;13.04.2020 20:07;14;224277;Implement commanding the lower level components;Story;Done;Done;2;960
+28;Lsstcorp Data management;2921;CLOSED;30.03.2020 19:07;13.04.2020 20:07;14;224278;Start implementing M2 hexapod thermal sensors CSC;Story;Done;Done;2;960
+28;Lsstcorp Data management;2920;CLOSED;13.04.2020 20:51;27.04.2020 21:51;14;223851;Review Dome Software Timeline;Story;Done;Done;1;240
+28;Lsstcorp Data management;2920;CLOSED;13.04.2020 20:51;27.04.2020 21:51;14;223748;Install raspberry pi disk image for cloud sensor;Story;Done;Done;2;960
+28;Lsstcorp Data management;2920;CLOSED;13.04.2020 20:51;27.04.2020 21:51;14;223852;Poll lower level status and send telemetry;Story;Done;Done;3;960
+28;Lsstcorp Data management;2920;CLOSED;13.04.2020 20:51;27.04.2020 21:51;14;223746;Add all commands to DCS;Story;Done;Done;3;2400
+28;Lsstcorp Data management;2917;CLOSED;28.04.2020 00:22;12.05.2020 01:22;14;223555;Add error handling to DCS based on the reply given by the lower level components.;Story;Done;Done;2;1920
+28;Lsstcorp Data management;2917;CLOSED;28.04.2020 00:22;12.05.2020 01:22;14;223710;Assign the OFC state0 in ts_MTAOS by Configuration File ;Story;Done;Done;3;2520
+28;Lsstcorp Data management;2915;CLOSED;11.05.2020 22:20;25.05.2020 23:20;14;223370;Install raspis and sensors at home and flash HD card;Story;Done;Done;1;480
+28;Lsstcorp Data management;2915;CLOSED;11.05.2020 22:20;25.05.2020 23:20;14;223489;Check out DIMM code and read through it;Story;Done;Done;1;480
+28;Lsstcorp Data management;2915;CLOSED;11.05.2020 22:20;25.05.2020 23:20;14;223530;Add documentation for DCS;Story;Done;Done;2;480
+28;Lsstcorp Data management;2913;CLOSED;25.05.2020 19:28;08.06.2020 20:28;14;223418;Clarify the meaning of CW/CCW/UP/DOWN and whether a velocity may be negative;Story;Done;Done;1;480
+28;Lsstcorp Data management;2913;CLOSED;25.05.2020 19:28;08.06.2020 20:28;14;223170;Sends modbus commands from M1M3cli;Story;Done;Done;1;840
+28;Lsstcorp Data management;2913;CLOSED;25.05.2020 19:28;08.06.2020 20:28;14;223424;Replace timed loop in mock controller by a function taking a time offset;Story;Done;Done;1;1440
+28;Lsstcorp Data management;2913;CLOSED;25.05.2020 19:28;08.06.2020 20:28;14;223141;Reinstall CentOS and document all steps;Story;Done;Done;2;480
+28;Lsstcorp Data management;2913;CLOSED;25.05.2020 19:28;08.06.2020 20:28;14;223227;Replace YAML with JSON when sending commands from and receiving replies in the Dome CSC.;Story;Done;Done;2;960
+28;Lsstcorp Data management;2913;CLOSED;25.05.2020 19:28;08.06.2020 20:28;14;223128;M1M3 send bits fix;Story;Done;Done;4;600
+28;Lsstcorp Data management;2911;CLOSED;08.06.2020 22:05;22.06.2020 23:05;14;223051;Change Health & Status data to direct FIFO;Story;Done;Done;2;480
+28;Lsstcorp Data management;2911;CLOSED;08.06.2020 22:05;22.06.2020 23:05;14;223108;Adjust DCS and the mock controller to the new JSON protocols and LLC states and statuses;Story;Done;Done;2;960
+28;Lsstcorp Data management;2911;CLOSED;08.06.2020 22:05;22.06.2020 23:05;14;222942;Adopt DCS and mock controller to ts_xml changes;Story;Done;Done;2;1440
+28;Lsstcorp Data management;2911;CLOSED;08.06.2020 22:05;22.06.2020 23:05;14;223237;Install ESS software in RPi4 and make sure it runs at system start up;Story;Done;Done;2;1920
+28;Lsstcorp Data management;2911;CLOSED;08.06.2020 22:05;22.06.2020 23:05;14;222986;Change M1M3 HW Simulator FPGA;Story;Done;Done;4;720
+28;Lsstcorp Data management;2909;CLOSED;22.06.2020 23:36;07.07.2020 00:36;14;222842;clang-format M1M3 support code;Improvement;Done;Done;1;210
+28;Lsstcorp Data management;2909;CLOSED;22.06.2020 23:36;07.07.2020 00:36;14;222600;Review ESS XML and add timestamps if necessary;Story;Done;Done;1;480
+28;Lsstcorp Data management;2909;CLOSED;22.06.2020 23:36;07.07.2020 00:36;14;222606;Adjust DCS and the mock controller to a change in the configuration protocol;Story;Done;Done;1;480
+28;Lsstcorp Data management;2909;CLOSED;22.06.2020 23:36;07.07.2020 00:36;14;222896;Thoroughly inspect ESS code and form API proposal;Story;Done;Done;1;480
+28;Lsstcorp Data management;2909;CLOSED;22.06.2020 23:36;07.07.2020 00:36;14;223003;Create CentOS SD image with SAL for Raspberry Pi 4;Story;Done;Done;1;480
+28;Lsstcorp Data management;2909;CLOSED;22.06.2020 23:36;07.07.2020 00:36;14;223280;Add more useful info to the documentation;Story;Done;Done;2;480
+28;Lsstcorp Data management;2909;CLOSED;22.06.2020 23:36;07.07.2020 00:36;14;222869;Integrate ESS code in ESS CSC;Story;Done;Done;2;720
+28;Lsstcorp Data management;2909;CLOSED;22.06.2020 23:36;07.07.2020 00:36;14;222870;Command all sky camera using GPhoto;Story;Done;Done;2;960
+28;Lsstcorp Data management;2909;CLOSED;22.06.2020 23:36;07.07.2020 00:36;14;223009;Make sure that Dome temperatures are expressed in deg_C;Story;Done;Done;0,5;10
+28;Lsstcorp Data management;2907;CLOSED;06.07.2020 19:42;20.07.2020 20:42;14;222476;Modernize GenericCamera code and unit tests;Story;Done;Done;1;480
+28;Lsstcorp Data management;2907;CLOSED;06.07.2020 19:42;20.07.2020 20:42;14;222602;Move Dome CSC documentation on Confluence to .rst files;Story;Done;Done;2;960
+28;Lsstcorp Data management;2907;CLOSED;06.07.2020 19:42;20.07.2020 20:42;14;223482;Replace boot and shutdown commands with enter/exitControl;Story;Done;Done;3;900
+28;Lsstcorp Data management;2907;CLOSED;06.07.2020 19:42;20.07.2020 20:42;14;223064;Introduce a more intelligent HVAC naming scheme to avoid overly long topic names;Story;Done;Done;3;1440
+28;Lsstcorp Data management;2905;CLOSED;20.07.2020 18:16;03.08.2020 19:16;14;223156;Dependencies for .h files;Story;Done;Done;1;120
+28;Lsstcorp Data management;2905;CLOSED;20.07.2020 18:16;03.08.2020 19:16;14;222281;Install ESS CSC on the raspberry pi 4;Story;Done;Done;1;480
+28;Lsstcorp Data management;2905;CLOSED;20.07.2020 18:16;03.08.2020 19:16;14;222355;Check SALSubsystems.XML file for attributes for several subsystems;Story;Done;Done;1;480
+28;Lsstcorp Data management;2905;CLOSED;20.07.2020 18:16;03.08.2020 19:16;14;223515;Build the Latest MTAOS Docker Image to Deploy on NCSA;Story;Done;Done;1;540
+28;Lsstcorp Data management;2905;CLOSED;20.07.2020 18:16;03.08.2020 19:16;14;222315;Install GenericCamera CSC on raspberry pi3 and make the camera work with it;Story;Done;Done;2;960
+28;Lsstcorp Data management;2905;CLOSED;20.07.2020 18:16;03.08.2020 19:16;14;223550;Issues found in M1M3 component;Story;Done;Done;3;660
+28;Lsstcorp Data management;2905;CLOSED;20.07.2020 18:16;03.08.2020 19:16;14;223290;Tests for PID in M1M3;Story;Done;Done;3;780
+28;Lsstcorp Data management;2905;CLOSED;20.07.2020 18:16;03.08.2020 19:16;14;222371;Document M1M3 states;Story;Done;Done;4;840
+28;Lsstcorp Data management;2903;CLOSED;03.08.2020 21:32;17.08.2020 22:32;14;222145;Integrate ESS USB code in ESS CSC;Story;Done;Done;1;480
+28;Lsstcorp Data management;2903;CLOSED;03.08.2020 21:32;17.08.2020 22:32;14;222273;Add conda build files to several projects;Story;Done;Done;1;480
+28;Lsstcorp Data management;2903;CLOSED;03.08.2020 21:32;17.08.2020 22:32;14;222138;Command ESS CSC using an external python script;Story;Done;Done;1;960
+28;Lsstcorp Data management;2903;CLOSED;03.08.2020 21:32;17.08.2020 22:32;14;222137;Command all-sky CSC using an external python script;Story;Done;Done;1;1440
+28;Lsstcorp Data management;2903;CLOSED;03.08.2020 21:32;17.08.2020 22:32;14;222047;Attend the PCW 2020;Story;Done;Done;2;960
+28;Lsstcorp Data management;2903;CLOSED;03.08.2020 21:32;17.08.2020 22:32;14;222590;M1M3SSPublisher as singleton;Improvement;Done;Done;3;1200
+28;Lsstcorp Data management;2903;CLOSED;03.08.2020 21:32;17.08.2020 22:32;14;222084;Document M1M3 SS Context, Model,..;Story;Done;Done;3;1500
+28;Lsstcorp Data management;2903;CLOSED;03.08.2020 21:32;17.08.2020 22:32;14;222074;Use QtCharts in M1M3 GUI instead of pyqtgraphs;Story;Done;Done;4;1860
+28;Lsstcorp Data management;2902;CLOSED;17.08.2020 21:51;31.08.2020 22:51;14;222117;Create conda build recipe for EAS;Story;Done;Done;1;240
+28;Lsstcorp Data management;2902;CLOSED;17.08.2020 21:51;31.08.2020 22:51;14;222118;Create conda build recipe for MTEEC;Story;Done;Done;1;240
+28;Lsstcorp Data management;2902;CLOSED;17.08.2020 21:51;31.08.2020 22:51;14;222115;Create conda build recipe for HVAC;Story;Done;Done;2;480
+28;Lsstcorp Data management;2902;CLOSED;17.08.2020 21:51;31.08.2020 22:51;14;222119;Modernize EAS GitHub repo, code and unit tests;Story;Done;Done;2;480
+28;Lsstcorp Data management;2902;CLOSED;17.08.2020 21:51;31.08.2020 22:51;14;222120;Modernize MTEEC GitHub repo, code and unit tests;Story;Done;Done;2;480
+28;Lsstcorp Data management;2902;CLOSED;17.08.2020 21:51;31.08.2020 22:51;14;222116;Create HVAC CSC;Story;Done;Done;3;1920
+28;Lsstcorp Data management;2899;CLOSED;31.08.2020 17:12;14.09.2020 17:12;14;221750;Replace sleep with conditional variable in Controller thread, C++11 solutions for threads etc.;Improvement;Done;Done;2;720
+28;Lsstcorp Data management;2899;CLOSED;31.08.2020 17:12;14.09.2020 17:12;14;221752;Install latest version of GPhoto2 in Docker for All-Sky Camera;Story;Done;Done;2;960
+28;Lsstcorp Data management;2899;CLOSED;31.08.2020 17:12;14.09.2020 17:12;14;221861;Replace pyqtgraph usage in ScatteredPlot with native PySide2/QtGraphics;Story;Done;Done;4;2220
+28;Lsstcorp Data management;2898;CLOSED;14.09.2020 07:56;28.09.2020 07:56;13;221671;Fix busy waits in ControllerThread;Bug;Done;Done;1;120
+28;Lsstcorp Data management;2898;CLOSED;14.09.2020 07:56;28.09.2020 07:56;13;221714;Integrate multi-channel ESS code into CSC;Story;Done;Done;1;480
+28;Lsstcorp Data management;2898;CLOSED;14.09.2020 07:56;28.09.2020 07:56;13;221725;Adjust DCS and the mock controller to a change in the configuration protocol;Story;Done;Done;1;480
+28;Lsstcorp Data management;2898;CLOSED;14.09.2020 07:56;28.09.2020 07:56;13;221548;Create Windows VM for testing EIE LabVIEW code;Story;Done;Done;2;480
+28;Lsstcorp Data management;2898;CLOSED;14.09.2020 07:56;28.09.2020 07:56;13;221729;Create a Docker image for Garry to use for ESS development.;Story;Done;Done;2;480
+28;Lsstcorp Data management;2898;CLOSED;14.09.2020 07:56;28.09.2020 07:56;13;221747;Create RPi4 CentOS image with Docker pre-installed;Story;Done;Done;2;960
+28;Lsstcorp Data management;2898;CLOSED;14.09.2020 07:56;28.09.2020 07:56;13;221996;Add events to Dome CSC;Story;Done;Done;2;960
+28;Lsstcorp Data management;2898;CLOSED;14.09.2020 07:56;28.09.2020 07:56;13;221675;Adds unit tests for mirror safety checks;Improvement;Done;Done;4;3360
+28;Lsstcorp Data management;2895;CLOSED;28.09.2020 16:01;12.10.2020 16:01;13;221422;Migrate DIMM CSC to SALOBJ 6;Story;Done;Done;1;60
+28;Lsstcorp Data management;2895;CLOSED;28.09.2020 16:01;12.10.2020 16:01;13;221277;Change M1M3 fault codes to 32bit integer;Story;Done;Done;1;180
+28;Lsstcorp Data management;2895;CLOSED;28.09.2020 16:01;12.10.2020 16:01;13;221306;Docker container for M1M3 GUI;Story;Done;Done;1;240
+28;Lsstcorp Data management;2895;CLOSED;28.09.2020 16:01;12.10.2020 16:01;13;221423;Migrate Environment CSC to SALOBJ 6;Story;Done;Done;2;60
+28;Lsstcorp Data management;2895;CLOSED;28.09.2020 16:01;12.10.2020 16:01;13;221326;Fix M1M3 simulator dockerfile;Story;Done;Done;2;660
+28;Lsstcorp Data management;2895;CLOSED;28.09.2020 16:01;12.10.2020 16:01;13;221405;Move to source code M1M3 actuators configuration (xyz positions, type,..);Story;Done;Done;2;960
+28;Lsstcorp Data management;2895;CLOSED;28.09.2020 16:01;12.10.2020 16:01;13;223169;Make sure that DCS handles 0/360 azimuth and 0/90 elevation boundaries properly;Story;Done;Done;2;3360
